@@ -12,5 +12,5 @@ const server = new GraphQLServer({
 server.express.use(logger("dev"))
 
 server.start({port : PORT}, () => 
-    console.log(`✅Server running on port http://locahost:${PORT} `)
+    console.log(`✅ Server running on port http://locahost:${PORT} `)
 );
